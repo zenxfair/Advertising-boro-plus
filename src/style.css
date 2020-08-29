@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 1288px;
+	height: 782px;
+	background-color: #ddd;
+}
+.body_containt{
+	margin: auto;
+	padding:7px;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 300px;
+	position: relative;
+}
+/*start hover effect*/
+.body_containt:hover .model_1{
+		transition: .3s;
+		opacity: 1;
+}
+.body_containt:hover .model{
+		transition: .3s;
+		opacity: 0;
+}
+.body_containt:hover .title_2{
+		transition: .3s;
+		opacity: 1;
+}
+.body_containt:hover .title_1{
+		transition: .3s;
+		opacity: 0;
+}
+.body_containt:hover .click{
+		transition: .3s;
+		opacity: 0;
+	}
+.body_containt:hover .buy_now{
+		transition: .3s;
+		opacity: 1;
+}
+/*end hover effect*/
+
+/*start body design*/
+.logo, .title_1, .title_2, .product, .model, .model_1, .click, .buy_now{
+	position: absolute;
+}
+/*for logo */
+.logo{
+	height: 43px;
+	width: 30px;
+	top: 0;
+	right: 0;
+	margin: 7px;
+}
+/*for title */
+.title_1, .title_2{
+	top:40px;
+	height: 48px;
+	width: 175px;
+}
+/*for droduct*/
+.product{
+	top:100px;
+	left: 70PX;
+	height: 95px;
+	width: 36px;
+}
+/*for model pic*/
+.model, .model_1{
+	bottom: 0px;
+	right: 0PX;
+	height: 156px;
+	width: 145px;
+}
+.model_1, .title_2{
+	opacity: 0;
+	transition: .3s;
+}
+/*for click image*/
+.click{
+	bottom: 45px;
+	left: 135PX;
+	height: 28px;
+	width: 26px;
+}
+/*for buy now pic*/
+.buy_now{
+	bottom: 13px;
+	left: 42PX;
+	height: 22px;
+	width: 90px;
+	opacity: 0;
+}
+/*end body degine*/
