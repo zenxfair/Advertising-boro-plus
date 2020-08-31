@@ -16,29 +16,13 @@ body{
 	position: relative;
 }
 /*start hover effect*/
-.body_containt:hover .model_1{
+.body_containt:hover .show{
 		transition: .3s;
 		opacity: 1;
 }
-.body_containt:hover .model{
+.body_containt:hover .hide{
 		transition: .3s;
 		opacity: 0;
-}
-.body_containt:hover .title_2{
-		transition: .3s;
-		opacity: 1;
-}
-.body_containt:hover .title_1{
-		transition: .3s;
-		opacity: 0;
-}
-.body_containt:hover .click{
-		transition: .3s;
-		opacity: 0;
-	}
-.body_containt:hover .buy_now{
-		transition: .3s;
-		opacity: 1;
 }
 /*end hover effect*/
 
